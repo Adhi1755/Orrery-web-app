@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orrey-Model</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+  <link rel=stylesheet href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="sun">
+      <img src="./images/sun.png" alt="sun">
+    </div>
+    <!-- <div class="mercury"></div>
+    <div class="venus"></div> -->
+    <div class="mercury" data-name="Mercury" data-description="Closest planet to the Sun, extreme temperature fluctuations, no moons." data-diameter="4,880 km" data-distance="57.91 million km" data-image="./images/mercury.png"></div>
+    <div class="venus" data-name="Venus" data-description="Known as Earth’s sister planet due to similar size and composition, but has toxic atmosphere and extreme heat." data-diameter="12,104 km" data-distance="108.2 million km" data-image="./images/venus.png"></div>
+    <div class="earth" data-name="Earth" data-description=" The only planet known to support life, abundant in liquid water, has one moon." data-diameter="12,742 km" data-distance="149.6 million km" data-image="./images/earth.png"> <div class="moon"></div></div>
+    <div class="mars" data-name="Mars" data-description="Known as the Red Planet due to iron oxide on its surface,evidence of past water, has two moons (Phobos and Deimos)." data-diameter="6,779 km" data-distance="227.9 million km" data-image="./images/mars.png"><div class="mars1moon"></div><div class="mars2moon"></div></div>
+    <div class="jupiter" data-name="Jupiter" data-description="Largest planet, famous for the Great Red Spot (a massivestorm), and has 79 moons, including Ganymede, the largest moon in the solar system." data-diameter="139,820 km" data-distance="778.57 million km" data-image="./images/jupiter.png"></div>
+    <div class="saturn" data-name="Saturn" data-description=" Known for its prominent ring system made of ice and rock particles, and has 83 moons, with Titan being the largest." data-diameter="116,460 km" data-distance="1,429.99 million km" data-image="./images/saturn.png"></div>
+    <div class="uranus" data-name="Uranus" data-description=" Rotates on its side (tilt of 98°), has a faint ring system, and 27 moons" data-diameter="50,724 km" data-distance="227.9 million km" data-image="./images/uranus.png"></div>
+    <div class="neptune" data-name="Neptune" data-description=" Known for its intense winds (fastest in the solar system), and has 14 moons, with Triton being the largest." data-diameter="49,244 km" data-distance=" 2,870.99 million km" data-image="./images/neptune.png"></div>
+    <div class="pluto" data-name="Pluto" data-description="Reclassified as a dwarf planet in 2006, orbits the Sun in a highly elliptical and inclined path, has 5 moons, with Charon being the largest." data-diameter="2,377 km." data-distance="5,906 million km" data-image="./images/pluto.png"></div>
+    <div id="planet-tooltip" class="planet-tooltip"></div>
+  </div>
+  <audio id="background-audio" loop>
+    <source src="./Music/inspiring-cinematic-ambient-116199 (1).mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+</audio>
+  <script src="script.js"></script>
+</body>
+
+</html>

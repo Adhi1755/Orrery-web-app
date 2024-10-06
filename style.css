@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    font-family: poppins,Arial, Helvetica, sans-serif;
+    background-color:black;
+    color: #D8D9DA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.navigation{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+}
+.navigation a{
+    float: right;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+.title1{
+    float: inline-start;
+    font-weight: 600;
+    font-size: large;
+}
+.navigation a:hover {
+    color:rgb(97, 103, 122);
+  }
+
+.container{
+    height: 396px;
+    width: 100%;
+    background-image: url(./images/background.svg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 10px;
+    letter-spacing: 5px;
+
+}
+.container span{
+  color: rgb(97, 103, 122);
+}
+.container h1{
+    color: rgb(204, 204, 204);
+}
+.button {
+    border-radius: 30px;
+    background-color:rgb(204, 204, 204);
+    border: none;
+    color:#272829;
+    text-align: center;
+    font-size: 20px;
+    padding: 18px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .p1{
+    height: 500px;
+    width: 1500px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    border: 1px solid #272829;
+    display: flex;
+    align-items: center;
+    color: #FFF6E0;
+    border-radius: 50px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur (10px);
+    -webkit-backdrop-filter: blur (10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18); 
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    transition: ease-in .1s;
+  }
+  .p1:hover{
+    transform: scale(1.03);
+  }
+  .p1 img{
+    height: 400px;
+    width: 400px;
+  }
+  .sun{
+    padding-top: 50px;
+    padding-left: 100px;
+    color: #FFF6E0;
+    text-align: center;
+  }
+  .d1{
+    padding-left: 80px;
+    padding-right: 100px;
+  }
+
+  .p2{
+    height: 500px;
+    width: 1500px;
+    margin-top: 30px;
+    border: 0.1px solid #FFF6E0;
+    display: flex;
+    align-items: center;
+    color: #FFF6E0;
+    border-radius: 50px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0), rgba(167, 177, 228, 0.1));
+    backdrop-filter: blur (10px);
+    -webkit-backdrop-filter: blur (10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18); 
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    transition: ease-out .1s;
+  }
+  .p2:hover{
+    transform: scale(1.03);
+  }
+  .pl2{
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-right: 150px;
+    margin-bottom: 0;
+    color: #FFF6E0;
+    text-align: center;
+  }
+  .pl2 img{
+    height: 400px;
+    width: 400px;
+  }
+  .d2{
+    padding-left: 80px;
+    padding-right: 100px;
+  }
+  
+  b{
+    color: #F1F6F9;
+  }
+
+  .foot{
+    margin-top: 30px;
+    height: 390px;
+    width: 100%;
+    background-color:#100F0F ;
+    display: flex;
+    background-image: url(./images/ASTROWARRIORS.svg);
+    background-size: cover;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid rgba(255, 255, 255, 0.18);;
+  }
+  .foot h4,h1{
+    line-height: 0%;
+  }
+  .head{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 0%;
+  }
+  .lin{
+    list-style:circle;
+    list-style-position: outside;
+  }
+  .lin a{
+    text-decoration: none;
+    color: #F1F6F9;
+  }
+  .names{
+    align-self: flex-start;
+    line-height: 2;
+    padding-left: 100px;
+  }
+  .lin a:hover {
+    color:rgb(97, 103, 122);
+  }
+@media screen and (max-width: 500px) {
+.navigation a {
+      float:none;
+      display: flex;
+      flex-direction: column;
+    }
+.title1{
+    display: block;
+    float: none;
+    flex-direction: column;
+}
+  }
